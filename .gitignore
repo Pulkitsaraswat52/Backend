@@ -15,3 +15,44 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables
+.env
+
+# Python virtual environment
+venv/
+
+# Face recognition database (likely contains sensitive data)
+face_recognition
+
+# Log and temp files
+*.log
+*.tmp
+temp/
+temp_images/
+activity_logs
+
+# IDE/editor settings
+.vscode/
+*.swp
+
+# Dataset and saved images (optional — if they can be regenerated or are too large)
+dataset/
+saved_images/
+uploads/
+
+# Node-related (if using JS tools like npm for frontend/backend)
+node_modules/
+package-lock.json
+
+# Alembic versions (optional if you don't want to track migration history)
+alembic/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
